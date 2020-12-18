@@ -1,0 +1,35 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:4.1.1"
+       // implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+        // location play services
+//        implementation 'com.google.android.gms:play-services-location:15.0.1'
+
+        // dexter runtime permissions
+//        implementation 'com.karumi:dexter:4.2.0'
+
+        // ButterKnife view binding
+//        implementation 'com.jakewharton:butterknife:8.8.1'
+//        annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+        classpath 'com.google.gms:google-services:4.3.4'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

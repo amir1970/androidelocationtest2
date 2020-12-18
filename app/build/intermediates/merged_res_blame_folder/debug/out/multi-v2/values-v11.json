@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\androidelocationtest2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\amirp\\.gradle\\caches\\transforms-2\\files-2.1\\a923dc3975a7082587fbd2f05b19cb8d\\jetified-play-services-appinvite-9.2.0\\res\\values-v11\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "220",
+                        "endColumns": "117",
+                        "endOffsets": "333"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "117",
+                        "endOffsets": "168"
+                    }
+                }
+            ]
+        }
+    ]
+}

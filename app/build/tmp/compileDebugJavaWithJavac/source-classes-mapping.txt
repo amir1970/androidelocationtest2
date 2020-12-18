@@ -1,0 +1,4 @@
+com/example/androidelocationtest2/MainActivity.java
+ com.example.androidelocationtest2.MainActivity
+com/example/androidelocationtest2/BuildConfig.java
+ com.example.androidelocationtest2.BuildConfig
